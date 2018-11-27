@@ -1,5 +1,7 @@
 @import 'config';
 @import 'menu';
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
 
 * {
@@ -12,8 +14,9 @@ body {
     color: set-text-color($primary-color);
     height: 100%;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.5;
+
 }
 
 // Headings
@@ -25,6 +28,7 @@ h3 {
 
     &.lg-heading {
         font-size: 6rem;
+        font-family: 'Sedgwick Ave', cursive;
     }
 
     &.sm-heading {
@@ -72,6 +76,8 @@ main {
 
         h1 {
             margin-top: 20vh;
+
+
         }
     }
 }
@@ -81,7 +87,7 @@ main {
     grid-gap: 30px;
     grid-template-areas:
         'bioimage bio bio'
-        'job1 job2 job3';
+        'dev1 dev2 dev3';
     grid-template-columns: repeat(3, 1fr);
 
     .bio-image {
@@ -96,27 +102,26 @@ main {
         font-size: 1.5rem;
     }
 
-    .job-1 {
-        grid-area: job1;
+    .dev-1 {
+        grid-area: dev1;
     }
 
-    .job-2 {
-        grid-area: job1;
+    .dev-2 {
+        grid-area: dev2;
     }
 
-    .job-3 {
-        grid-area: job1;
+    .dev-3 {
+        grid-area: dev3;
     }
 
-    .job {
+    .dev {
         background: lighten($primary-color, 5);
         padding: 0.5rem;
         border-bottom: $secondary-color 5px solid;
     }
 }
 
-//Work/Projects 
-
+// Work/Projects
 .projects {
     display: grid;
     grid-gap: 0.7rem;
@@ -134,19 +139,45 @@ main {
     }
 }
 
-//Button Styles
+// Contact Page
 
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+
+    div {
+        font-size: 2rem;
+        border: 3px #fff solid;
+        padding: 1.5rem 2.5rem;
+        margin-bottom: 3rem;
+        @include easeOut;
+
+        &:hover {
+            padding: 0.5rem 1.5rem;
+            background: $secondary-color;
+            color: set-text-color($secondary-color);
+
+            span {
+                color: set-text-color($secondary-color);
+            }
+        }
+    }
+}
+
+// Button Styles
 .btn {
     display: block;
     padding: 0.5rem 1rem;
     border: 0;
-    margin-bottom: 0.3;
+    margin-bottom: 0.3rem;
 
     &:hover {
         background: $secondary-color;
         color: set-text-color($secondary-color);
     }
-
 }
 
 .btn-dark {
@@ -168,6 +199,5 @@ main {
     color: set-text-color($primary-color);
     height: 60px;
 }
-
 
 @import 'mobile';

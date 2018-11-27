@@ -38,3 +38,97 @@ function toggleMenu() {
     }
 
 }
+
+//Projects on mouseover -> change to name of the project
+function myOverFunction1() {
+    document.querySelector('#eye1').innerHTML = "NavigationBar";
+}
+
+function myOutFunction1() {
+
+    document.querySelector('#eye1').innerHTML = "Project";
+}
+
+function myOverFunction2() {
+    document.querySelector('#eye2').innerHTML = "ParallaxEffect";
+}
+
+function myOutFunction2() {
+
+    document.querySelector('#eye2').innerHTML = "Project";
+}
+
+function myOverFunction3() {
+    document.querySelector('#eye3').innerHTML = "LoginVideoBackground";
+}
+
+function myOutFunction3() {
+
+    document.querySelector('#eye3').innerHTML = "Project";
+}
+
+function myOverFunction4() {
+    document.querySelector('#eye4').innerHTML = "In Progress..";
+}
+
+function myOutFunction4() {
+
+    document.querySelector('#eye4').innerHTML = "Project";
+}
+
+function myOverFunction5() {
+    document.querySelector('#eye5').innerHTML = "In Progress..";
+}
+
+function myOutFunction5() {
+
+    document.querySelector('#eye5').innerHTML = "Project";
+}
+
+
+//  changing the contacts everytime when you hover one the other 2 change
+
+function changeFunction1() {
+    document.querySelector('#two1').innerHTML = "Avaible everyday from 10am to 10pm";
+    document.querySelector('#two2').innerHTML = "";
+    document.querySelector('#three1').innerHTML = "";
+    document.querySelector('#three2').innerHTML = "This is my main email";
+
+}
+
+function restoreFunction1() {
+    document.querySelector('#three1').innerHTML = "Email2:";
+    document.querySelector('#three2').innerHTML = "hortopan77alexandru@gmail.com";
+    document.querySelector('#two1').innerHTML = "Phone:";
+    document.querySelector('#two2').innerHTML = "+40760012316";
+}
+
+function changeFunction2() {
+    document.querySelector('#one1').innerHTML = "I'm checking my phone every 10seconds";
+    document.querySelector('#one2').innerHTML = "";
+    document.querySelector('#three1').innerHTML = "";
+    document.querySelector('#three2').innerHTML = "Text/call me anytime";
+
+}
+
+function restoreFunction2() {
+    document.querySelector('#one1').innerHTML = "Email:";
+    document.querySelector('#one2').innerHTML = "hortopan00alexandru@gmail.com";
+    document.querySelector('#three1').innerHTML = "Email2:";
+    document.querySelector('#three2').innerHTML = "hortopan77alexandru@gmail.com";
+}
+
+function changeFunction3() {
+    document.querySelector('#two1').innerHTML = "I chech my emails once a week";
+    document.querySelector('#two2').innerHTML = "";
+    document.querySelector('#one1').innerHTML = "";
+    document.querySelector('#one2').innerHTML = "This is my second email";
+
+}
+
+function restoreFunction3() {
+    document.querySelector('#one1').innerHTML = "Email:";
+    document.querySelector('#one2').innerHTML = "hortopan00alexandru@gmail.com";
+    document.querySelector('#two1').innerHTML = "Phone:";
+    document.querySelector('#two2').innerHTML = "+40760012316";
+}

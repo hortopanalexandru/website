@@ -1,20 +1,18 @@
-//Widescreens
+// Widescreens
 @include mediaXl {
     .projects {
         grid-template-columns: repeat(4, 1fr);
     }
 }
 
-
-//Desktops & Laptops
+// Desktops & Laptops
 @include mediaLg {
     .projects {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
-
-//Tablets & Small Laptops
+// Tablets & Small Laptops
 @include mediaMd {
     main {
         align-items: center;
@@ -54,13 +52,13 @@
         }
     }
 
-    .about-inf {
+    .about-info {
         grid-template-areas:
             'bioimage'
             'bio'
-            'job1'
-            'job2'
-            'job3';
+            'dev1'
+            'dev2'
+            'dev3';
 
         grid-template-columns: 1fr;
     }
@@ -70,11 +68,19 @@
     }
 }
 
-
-//Smartphones
+// Smartphones
 @include mediaSm {
-    main#home h1 {
-        margin-top: 10vh;
+    main {
+        padding: 2rem;
+
+        #home h1 {
+            margin-top: 10vh;
+        }
+
+        .lg-heading {
+            margin-top: 1rem;
+            font-size: 5rem;
+        }
     }
 
     .projects {
