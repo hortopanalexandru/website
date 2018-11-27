@@ -101,7 +101,7 @@ function changeFunction2() {
   setTimeout(function () {
     document.querySelector("#one1").innerHTML = "Email: ";
     document.querySelector("#one2").innerHTML = " hortopan00alexandru@gmail.com";
-    document.querySelector("#three1").innerHTML = "Email2: ";
+    document.querySelector("#three1").innerHTML = "Email 2: ";
     document.querySelector("#three2").innerHTML =
       "hortopan77alexandru@gmail.com";
   }, 3000);
