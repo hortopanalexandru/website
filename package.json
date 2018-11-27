@@ -1,5 +1,5 @@
 {
-  "name": "portofolio",
+  "name": "mywebsite",
   "version": "1.0.0",
   "description": "Responsive Portofolio",
   "main": "index.js",
@@ -13,5 +13,13 @@
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.10.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hortopanalexandru/mywebsite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hortopanalexandru/mywebsite/issues"
   }
 }

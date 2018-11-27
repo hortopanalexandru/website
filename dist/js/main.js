@@ -83,7 +83,7 @@ function changeFunction1() {
   document.querySelector("#two2").innerHTML = "";
   document.querySelector("#three1").innerHTML = "";
   document.querySelector("#three2").innerHTML = "This is my main email";
-  setTimeout(function() {
+  setTimeout(function () {
     document.querySelector("#three1").innerHTML = "Email2:";
     document.querySelector("#three2").innerHTML =
       "hortopan77alexandru@gmail.com";
@@ -98,7 +98,7 @@ function changeFunction2() {
   document.querySelector("#one2").innerHTML = "";
   document.querySelector("#three1").innerHTML = "";
   document.querySelector("#three2").innerHTML = "Text/call me anytime";
-  setTimeout(function() {
+  setTimeout(function () {
     document.querySelector("#one1").innerHTML = "Email:";
     document.querySelector("#one2").innerHTML = "hortopan00alexandru@gmail.com";
     document.querySelector("#three1").innerHTML = "Email2:";
@@ -112,7 +112,7 @@ function changeFunction3() {
   document.querySelector("#two2").innerHTML = "";
   document.querySelector("#one1").innerHTML = "";
   document.querySelector("#one2").innerHTML = "This is my second email";
-  setTimeout(function() {
+  setTimeout(function () {
     document.querySelector("#one1").innerHTML = "Email:";
     document.querySelector("#one2").innerHTML = "hortopan00alexandru@gmail.com";
     document.querySelector("#two1").innerHTML = "Phone:";
