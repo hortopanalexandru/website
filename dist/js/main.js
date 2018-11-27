@@ -119,7 +119,7 @@ function restoreFunction2() {
 }
 
 function changeFunction3() {
-    document.querySelector('#two1').innerHTML = "I chech my emails once a week";
+    document.querySelector('#two1').innerHTML = "I check my emails once a week";
     document.querySelector('#two2').innerHTML = "";
     document.querySelector('#one1').innerHTML = "";
     document.querySelector('#one2').innerHTML = "This is my second email";
