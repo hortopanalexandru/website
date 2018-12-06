@@ -2,7 +2,7 @@
   "name": "mywebsite",
   "version": "1.0.0",
   "description": "Responsive Portofolio",
-  "main": "index.js",
+  "main": "index.html",
   "homepage": "https://hortopanalexandru.github.io/portofolio/",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
